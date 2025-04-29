@@ -1,6 +1,6 @@
 val scala2Version = "$scalaVersion$"
 
-lazy val root = project
+lazy val $name$ = project
   .in(file("."))
   .settings(
     name := "$name$",
